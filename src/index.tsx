@@ -2,7 +2,6 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
 import zipFile from './assets/basic_react_app.zip';
-import { Test } from './Test';
 
 const App = () => {
     const options = [
@@ -12,7 +11,6 @@ const App = () => {
 
     return (
         <div className="app">
-            <Test />
             <h1 className="heading">Basic React app with webpack</h1>
             <main className="main-content">
                 <p>
@@ -23,7 +21,7 @@ const App = () => {
 
                 <em className="explanation">This command is no longer maintained</em>
                 <br />
-                <tt className="alternatives">Other alternatives are: </tt>
+                <p className="alternatives">Other alternatives are: </p>
                 <ul className="list">
                     {options.map((option, index) => (
                         <li key={index}>
