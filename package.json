@@ -1,6 +1,6 @@
 {
     "name": "react-app",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "This a basic react app incluiding all the basics to render an app using react. Since recently the well known comand line npx create-react-app is no longer maintained this repository is an squeleton to be reused",
     "main": "index.js",
     "scripts": {
